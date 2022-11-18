@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC7E2FF22928009000E68CD8 /* NewWaveStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E2FF12928009000E68CD8 /* NewWaveStoreApp.swift */; };
+		CC7E2FF42928009000E68CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E2FF32928009000E68CD8 /* ContentView.swift */; };
+		CC7E2FF62928009200E68CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7E2FF52928009200E68CD8 /* Assets.xcassets */; };
+		CC7E2FF92928009200E68CD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7E2FF82928009200E68CD8 /* Preview Assets.xcassets */; };
+		CC7E30032928009200E68CD8 /* NewWaveStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E30022928009200E68CD8 /* NewWaveStoreTests.swift */; };
+		CC7E300D2928009200E68CD8 /* NewWaveStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E300C2928009200E68CD8 /* NewWaveStoreUITests.swift */; };
+		CC7E300F2928009200E68CD8 /* NewWaveStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E300E2928009200E68CD8 /* NewWaveStoreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC7E2FFF2928009200E68CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E2FE62928009000E68CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7E2FED2928009000E68CD8;
+			remoteInfo = NewWaveStore;
+		};
+		CC7E30092928009200E68CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E2FE62928009000E68CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7E2FED2928009000E68CD8;
+			remoteInfo = NewWaveStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC7E2FEE2928009000E68CD8 /* NewWaveStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWaveStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7E2FF12928009000E68CD8 /* NewWaveStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreApp.swift; sourceTree = "<group>"; };
+		CC7E2FF32928009000E68CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC7E2FF52928009200E68CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7E2FF82928009200E68CD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC7E2FFE2928009200E68CD8 /* NewWaveStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewWaveStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7E30022928009200E68CD8 /* NewWaveStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreTests.swift; sourceTree = "<group>"; };
+		CC7E30082928009200E68CD8 /* NewWaveStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewWaveStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7E300C2928009200E68CD8 /* NewWaveStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITests.swift; sourceTree = "<group>"; };
+		CC7E300E2928009200E68CD8 /* NewWaveStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7E2FEB2928009000E68CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E2FFB2928009200E68CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E30052928009200E68CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC7E2FE52928009000E68CD8 = {
+			isa = PBXGroup;
+			children = (
+				CC7E2FF02928009000E68CD8 /* NewWaveStore */,
+				CC7E30012928009200E68CD8 /* NewWaveStoreTests */,
+				CC7E300B2928009200E68CD8 /* NewWaveStoreUITests */,
+				CC7E2FEF2928009000E68CD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7E2FEF2928009000E68CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E2FEE2928009000E68CD8 /* NewWaveStore.app */,
+				CC7E2FFE2928009200E68CD8 /* NewWaveStoreTests.xctest */,
+				CC7E30082928009200E68CD8 /* NewWaveStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7E2FF02928009000E68CD8 /* NewWaveStore */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E2FF12928009000E68CD8 /* NewWaveStoreApp.swift */,
+				CC7E2FF32928009000E68CD8 /* ContentView.swift */,
+				CC7E2FF52928009200E68CD8 /* Assets.xcassets */,
+				CC7E2FF72928009200E68CD8 /* Preview Content */,
+			);
+			path = NewWaveStore;
+			sourceTree = "<group>";
+		};
+		CC7E2FF72928009200E68CD8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E2FF82928009200E68CD8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC7E30012928009200E68CD8 /* NewWaveStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E30022928009200E68CD8 /* NewWaveStoreTests.swift */,
+			);
+			path = NewWaveStoreTests;
+			sourceTree = "<group>";
+		};
+		CC7E300B2928009200E68CD8 /* NewWaveStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E300C2928009200E68CD8 /* NewWaveStoreUITests.swift */,
+				CC7E300E2928009200E68CD8 /* NewWaveStoreUITestsLaunchTests.swift */,
+			);
+			path = NewWaveStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7E2FED2928009000E68CD8 /* NewWaveStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7E30122928009200E68CD8 /* Build configuration list for PBXNativeTarget "NewWaveStore" */;
+			buildPhases = (
+				CC7E2FEA2928009000E68CD8 /* Sources */,
+				CC7E2FEB2928009000E68CD8 /* Frameworks */,
+				CC7E2FEC2928009000E68CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewWaveStore;
+			productName = NewWaveStore;
+			productReference = CC7E2FEE2928009000E68CD8 /* NewWaveStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7E2FFD2928009200E68CD8 /* NewWaveStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7E30152928009200E68CD8 /* Build configuration list for PBXNativeTarget "NewWaveStoreTests" */;
+			buildPhases = (
+				CC7E2FFA2928009200E68CD8 /* Sources */,
+				CC7E2FFB2928009200E68CD8 /* Frameworks */,
+				CC7E2FFC2928009200E68CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7E30002928009200E68CD8 /* PBXTargetDependency */,
+			);
+			name = NewWaveStoreTests;
+			productName = NewWaveStoreTests;
+			productReference = CC7E2FFE2928009200E68CD8 /* NewWaveStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC7E30072928009200E68CD8 /* NewWaveStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7E30182928009200E68CD8 /* Build configuration list for PBXNativeTarget "NewWaveStoreUITests" */;
+			buildPhases = (
+				CC7E30042928009200E68CD8 /* Sources */,
+				CC7E30052928009200E68CD8 /* Frameworks */,
+				CC7E30062928009200E68CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7E300A2928009200E68CD8 /* PBXTargetDependency */,
+			);
+			name = NewWaveStoreUITests;
+			productName = NewWaveStoreUITests;
+			productReference = CC7E30082928009200E68CD8 /* NewWaveStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7E2FE62928009000E68CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CC7E2FED2928009000E68CD8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CC7E2FFD2928009200E68CD8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CC7E2FED2928009000E68CD8;
+					};
+					CC7E30072928009200E68CD8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CC7E2FED2928009000E68CD8;
+					};
+				};
+			};
+			buildConfigurationList = CC7E2FE92928009000E68CD8 /* Build configuration list for PBXProject "NewWaveStore" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7E2FE52928009000E68CD8;
+			productRefGroup = CC7E2FEF2928009000E68CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7E2FED2928009000E68CD8 /* NewWaveStore */,
+				CC7E2FFD2928009200E68CD8 /* NewWaveStoreTests */,
+				CC7E30072928009200E68CD8 /* NewWaveStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7E2FEC2928009000E68CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E2FF92928009200E68CD8 /* Preview Assets.xcassets in Resources */,
+				CC7E2FF62928009200E68CD8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E2FFC2928009200E68CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E30062928009200E68CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7E2FEA2928009000E68CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E2FF42928009000E68CD8 /* ContentView.swift in Sources */,
+				CC7E2FF22928009000E68CD8 /* NewWaveStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E2FFA2928009200E68CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E30032928009200E68CD8 /* NewWaveStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7E30042928009200E68CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E300F2928009200E68CD8 /* NewWaveStoreUITestsLaunchTests.swift in Sources */,
+				CC7E300D2928009200E68CD8 /* NewWaveStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7E30002928009200E68CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7E2FED2928009000E68CD8 /* NewWaveStore */;
+			targetProxy = CC7E2FFF2928009200E68CD8 /* PBXContainerItemProxy */;
+		};
+		CC7E300A2928009200E68CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7E2FED2928009000E68CD8 /* NewWaveStore */;
+			targetProxy = CC7E30092928009200E68CD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC7E30102928009200E68CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC7E30112928009200E68CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7E30132928009200E68CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewWaveStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 45873M4U78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Keefe-Inc.NewWaveStore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC7E30142928009200E68CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewWaveStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 45873M4U78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Keefe-Inc.NewWaveStore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC7E30162928009200E68CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45873M4U78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Keefe-Inc.NewWaveStoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewWaveStore.app/NewWaveStore";
+			};
+			name = Debug;
+		};
+		CC7E30172928009200E68CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45873M4U78;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Keefe-Inc.NewWaveStoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewWaveStore.app/NewWaveStore";
+			};
+			name = Release;
+		};
+		CC7E30192928009200E68CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45873M4U78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Keefe-Inc.NewWaveStoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewWaveStore;
+			};
+			name = Debug;
+		};
+		CC7E301A2928009200E68CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45873M4U78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Keefe-Inc.NewWaveStoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewWaveStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7E2FE92928009000E68CD8 /* Build configuration list for PBXProject "NewWaveStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E30102928009200E68CD8 /* Debug */,
+				CC7E30112928009200E68CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7E30122928009200E68CD8 /* Build configuration list for PBXNativeTarget "NewWaveStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E30132928009200E68CD8 /* Debug */,
+				CC7E30142928009200E68CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7E30152928009200E68CD8 /* Build configuration list for PBXNativeTarget "NewWaveStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E30162928009200E68CD8 /* Debug */,
+				CC7E30172928009200E68CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7E30182928009200E68CD8 /* Build configuration list for PBXNativeTarget "NewWaveStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E30192928009200E68CD8 /* Debug */,
+				CC7E301A2928009200E68CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7E2FE62928009000E68CD8 /* Project object */;
+}
