@@ -15,6 +15,11 @@
 		CC7E300D2928009200E68CD8 /* NewWaveStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E300C2928009200E68CD8 /* NewWaveStoreUITests.swift */; };
 		CC7E300F2928009200E68CD8 /* NewWaveStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E300E2928009200E68CD8 /* NewWaveStoreUITestsLaunchTests.swift */; };
 		CC7E301C2928056A00E68CD8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E301B2928056A00E68CD8 /* Product.swift */; };
+		CC7E302029280A4800E68CD8 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E301F29280A4800E68CD8 /* ProductList.swift */; };
+		CC7E3022292C077900E68CD8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E3021292C077900E68CD8 /* Constants.swift */; };
+		CC7E3024292C093F00E68CD8 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E3023292C093F00E68CD8 /* ProductListView.swift */; };
+		CC7E3026292E6AF100E68CD8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E3025292E6AF100E68CD8 /* HomeView.swift */; };
+		CCA2B30E293530480070E817 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA2B30D293530480070E817 /* ProductDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		CC7E300C2928009200E68CD8 /* NewWaveStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITests.swift; sourceTree = "<group>"; };
 		CC7E300E2928009200E68CD8 /* NewWaveStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CC7E301B2928056A00E68CD8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CC7E301F29280A4800E68CD8 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		CC7E3021292C077900E68CD8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CC7E3023292C093F00E68CD8 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		CC7E3025292E6AF100E68CD8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = NewWaveStore/Model/HomeView.swift; sourceTree = "<group>"; };
+		CCA2B30D293530480070E817 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,8 @@
 		CC7E2FE52928009000E68CD8 = {
 			isa = PBXGroup;
 			children = (
+				CC7E3025292E6AF100E68CD8 /* HomeView.swift */,
+				CCA2B30D293530480070E817 /* ProductDetailView.swift */,
 				CC7E2FF02928009000E68CD8 /* NewWaveStore */,
 				CC7E30012928009200E68CD8 /* NewWaveStoreTests */,
 				CC7E300B2928009200E68CD8 /* NewWaveStoreUITests */,
@@ -142,6 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				CC7E301B2928056A00E68CD8 /* Product.swift */,
+				CC7E301F29280A4800E68CD8 /* ProductList.swift */,
+				CC7E3021292C077900E68CD8 /* Constants.swift */,
+				CC7E3023292C093F00E68CD8 /* ProductListView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,7 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7E3024292C093F00E68CD8 /* ProductListView.swift in Sources */,
+				CCA2B30E293530480070E817 /* ProductDetailView.swift in Sources */,
+				CC7E3026292E6AF100E68CD8 /* HomeView.swift in Sources */,
+				CC7E3022292C077900E68CD8 /* Constants.swift in Sources */,
 				CC7E2FF42928009000E68CD8 /* ContentView.swift in Sources */,
+				CC7E302029280A4800E68CD8 /* ProductList.swift in Sources */,
 				CC7E2FF22928009000E68CD8 /* NewWaveStoreApp.swift in Sources */,
 				CC7E301C2928056A00E68CD8 /* Product.swift in Sources */,
 			);
